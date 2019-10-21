@@ -42,10 +42,10 @@ class AnnotationLoader
     protected static function getVendorPath(): string
     {
         $reflector = new \ReflectionClass(ClassLoader::class);
-        $vendorPath = preg_replace('/^(.*)\/composer\/ClassLoader\.php$/', '$1', $reflector->getFileName());
+        $vendorPath = preg_replace('/^(.*)\\' . DIRECTORY_SEPARATOR . 'composer\\' . DIRECTORY_SEPARATOR . 'ClassLoader\.php$/', '$1', $reflector->getFileName());
 
         if ($vendorPath && is_dir($vendorPath)) {
-            return rtrim($vendorPath, '/');
+            return rtrim($vendorPath, '/\\');
         }
 
         throw new \RuntimeException('Unable to detect vendor path.');
