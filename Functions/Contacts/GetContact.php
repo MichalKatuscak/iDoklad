@@ -12,13 +12,13 @@ use Fousky\Component\iDoklad\Model\Contacts\ContactApiModel;
  */
 class GetContact extends iDokladAbstractFunction
 {
-    /** @var string $id */
+    /** @var int $id */
     protected $id;
 
     /**
-     * @param string $id
+     * @param int $id
      */
-    public function __construct(string $id)
+    public function __construct(int $id)
     {
         $this->id = $id;
     }
