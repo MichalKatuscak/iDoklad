@@ -8,7 +8,7 @@ PHP7 library for calling iDoklad API (v2). Library is **not stable** yet.
 
 # Install with Composer
 
-    composer require fousky/idoklad
+    composer require katuscak/idoklad
 
 # Basic usage
 
