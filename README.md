@@ -2,10 +2,6 @@
 
 PHP7 library for calling iDoklad API (v2). Library is **not stable** yet.
 
-[![StyleCI](https://styleci.io/repos/94907919/shield?branch=master)](https://styleci.io/repos/94907919)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Fousky/iDoklad/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Fousky/iDoklad/?branch=master)
-[![PHPStan](https://img.shields.io/badge/PHPStan-enabled-brightgreen.svg?style=flat)](https://github.com/phpstan/phpstan)
-
 # Install with Composer
 
     composer require katuscak/idoklad
