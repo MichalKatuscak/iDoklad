@@ -39,12 +39,3 @@ $responseModel = $idoklad->execute(
  */
 var_dump($responseModel);
 ```
-
-# CI code quality check
-
-Try to run `composer ci` where you can find this commands:
-
-* `composer validate --no-check-all`
-* `composer install --no-progress --no-interaction --no-suggest --no-scripts`
-* `php vendor/bin/phpstan analyze ./ -c phpstan.neon --level=7`
-* `parallel-lint -j 10 --exclude vendor ./`
