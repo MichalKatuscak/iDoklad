@@ -1,5 +1,5 @@
 {
-    "name": "fousky/idoklad",
+    "name": "katuscak/idoklad",
     "description": "Implement iDoklad API v2",
     "type": "library",
     "require": {
